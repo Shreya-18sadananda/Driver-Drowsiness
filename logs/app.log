@@ -1102,3 +1102,155 @@ weighted avg       0.41      0.64      0.50      9078
 2026-08-05 21:31:14,282 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-05_21-30-37\drowsy_2026-08-05_21-31-14_259.png
 2026-08-05 21:31:15,223 | INFO     | driver_safety.camera | Webcam released.
 2026-08-05 21:31:15,226 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-05 22:03:03,040 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-08-05 22:03:03,143 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-08-05 22:03:05,789 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-08-05 22:03:27,353 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-08-05 22:03:27,360 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-05_22-03-27
+2026-08-05 22:03:42,656 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-05 22:03:42,689 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-05_22-03-27\drowsy_2026-08-05_22-03-42_658.png
+2026-08-05 22:03:43,957 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-05 22:03:53,570 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-05 22:03:53,590 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-05_22-03-27\drowsy_2026-08-05_22-03-53_571.png
+2026-08-05 22:03:54,291 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-05 22:03:56,130 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-05 22:03:56,357 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-05 22:03:58,680 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-05 22:03:58,702 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-05_22-03-27\drowsy_2026-08-05_22-03-58_681.png
+2026-08-05 22:03:59,176 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-05 22:04:14,373 | INFO     | driver_safety.camera | Webcam released.
+2026-08-06 12:25:17,239 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-08-06 12:25:17,271 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-08-06 12:25:19,882 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-08-06 12:25:34,257 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-08-06 12:25:34,262 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_12-25-34
+2026-08-06 12:26:35,457 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-08-06 12:26:43,196 | INFO     | driver_safety.camera | Webcam released.
+2026-08-06 13:03:52,365 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-08-06 13:03:52,444 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-08-06 13:03:55,299 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-08-06 13:05:18,360 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-08-06 13:05:18,364 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18
+2026-08-06 13:05:47,850 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-06 13:05:47,879 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-05-47_852.png
+2026-08-06 13:05:50,873 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-05-50_851.png
+2026-08-06 13:05:53,837 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-06 13:05:57,098 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-06 13:05:57,127 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-05-57_098.png
+2026-08-06 13:06:00,343 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-00_322.png
+2026-08-06 13:06:02,824 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-06 13:06:07,614 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-06 13:06:07,642 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-07_615.png
+2026-08-06 13:06:10,819 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-10_798.png
+2026-08-06 13:06:14,004 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-06 13:06:24,424 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-08-06 13:06:24,449 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-24_425.png
+2026-08-06 13:06:27,692 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-27_667.png
+2026-08-06 13:06:30,731 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-30_706.png
+2026-08-06 13:06:33,910 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-08-06_13-05-18\drowsy_2026-08-06_13-06-33_888.png
+2026-08-06 13:06:35,195 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-08-06 13:06:45,736 | INFO     | driver_safety.camera | Webcam released.
+2026-09-07 15:59:41,853 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-09-07 15:59:42,040 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-09-07 15:59:45,481 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-09-07 16:06:07,368 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-09-07 16:06:07,374 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07
+2026-09-07 16:06:24,043 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-07 16:06:24,082 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07\drowsy_2026-09-07_16-06-24_045.png
+2026-09-07 16:06:25,465 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-07 16:06:34,902 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-07 16:06:34,925 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07\drowsy_2026-09-07_16-06-34_902.png
+2026-09-07 16:06:36,288 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-07 16:06:43,727 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-07 16:06:43,757 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07\drowsy_2026-09-07_16-06-43_729.png
+2026-09-07 16:06:46,944 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-07 16:06:58,937 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-07 16:06:58,961 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07\drowsy_2026-09-07_16-06-58_938.png
+2026-09-07 16:06:59,476 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-07 16:07:04,088 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-07 16:07:04,117 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07\drowsy_2026-09-07_16-07-04_089.png
+2026-09-07 16:07:04,612 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-07 16:07:09,248 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-07 16:07:09,271 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-07_16-06-07\drowsy_2026-09-07_16-07-09_249.png
+2026-09-07 16:07:09,772 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-07 16:07:39,132 | INFO     | driver_safety.camera | Webcam released.
+2026-09-08 13:21:02,518 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-09-08 13:21:02,681 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-09-08 13:21:06,107 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-09-08 14:37:02,183 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-09-08 14:37:02,254 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-09-08 14:37:03,432 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-09-08 14:37:30,360 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-09-08 14:37:30,367 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-37-30
+2026-09-08 14:37:56,667 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-08 14:37:56,677 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-37-30\drowsy_2026-09-08_14-37-56_668.png
+2026-09-08 14:37:56,884 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-08 14:38:07,370 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-09-08 14:38:15,156 | INFO     | driver_safety.camera | Webcam released.
+2026-09-08 14:48:40,635 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-09-08 14:48:40,722 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-09-08 14:48:43,403 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-09-08 14:49:07,794 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-09-08 14:49:07,804 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-49-07
+2026-09-08 14:49:28,034 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-09-08 14:49:29,354 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-08 14:49:29,383 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-49-07\drowsy_2026-09-08_14-49-29_356.png
+2026-09-08 14:49:29,670 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-08 14:49:30,576 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-08 14:49:30,884 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-08 14:49:47,294 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-09-08 14:50:37,414 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-08 14:50:37,449 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-49-07\drowsy_2026-09-08_14-50-37_414.png
+2026-09-08 14:50:38,867 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-08 14:50:43,111 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-08 14:50:43,143 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-49-07\drowsy_2026-09-08_14-50-43_111.png
+2026-09-08 14:50:44,179 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-08 14:50:45,104 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-09-08 14:51:09,215 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-09-08 14:51:09,242 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-09-08_14-49-07\drowsy_2026-09-08_14-51-09_217.png
+2026-09-08 14:51:09,768 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-09-08 14:51:14,825 | INFO     | driver_safety.camera | Webcam released.
+2026-10-09 13:30:49,587 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-10-09 13:30:49,796 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-10-09 13:30:54,209 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-10-09 13:31:05,315 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-10-09 13:31:05,320 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_13-31-05
+2026-10-09 13:31:33,354 | INFO     | driver_safety.camera | Webcam released.
+2026-10-09 13:31:57,665 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-10-09 13:31:57,784 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-10-09 13:32:01,486 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-10-09 13:32:25,271 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-10-09 13:32:25,274 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_13-32-25
+2026-10-09 13:32:53,321 | INFO     | driver_safety.camera | Webcam released.
+2026-10-09 13:41:16,341 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-10-09 13:41:16,450 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-10-09 13:41:19,601 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-10-09 13:41:41,098 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-10-09 13:41:41,106 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_13-41-41
+2026-10-09 13:42:16,824 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-10-09 13:42:16,854 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_13-41-41\drowsy_2026-10-09_13-42-16_825.png
+2026-10-09 13:42:17,636 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-10-09 13:42:21,887 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:42:26,839 | INFO     | driver_safety.utils.alert | Alarm started.
+2026-10-09 13:42:26,846 | INFO     | driver_safety.gui.app | Saved alert screenshot: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_13-41-41\drowsy_2026-10-09_13-42-26_840.png
+2026-10-09 13:42:27,336 | INFO     | driver_safety.utils.alert | Alarm stopped.
+2026-10-09 13:43:56,849 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:44:23,814 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:44:31,170 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:45:33,637 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:45:39,592 | INFO     | driver_safety.camera | Webcam released.
+2026-10-09 13:54:43,890 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-10-09 13:54:43,990 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-10-09 13:54:47,595 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-10-09 13:55:13,526 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-10-09 13:55:13,532 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_13-55-13
+2026-10-09 13:55:27,654 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:55:36,084 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 13:55:44,161 | INFO     | driver_safety.camera | Webcam released.
+2026-10-09 14:02:28,218 | INFO     | driver_safety.utils.alert | Audio mixer ready (C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\alarm\alarm.wav).
+2026-10-09 14:02:28,313 | INFO     | driver_safety.utils.landmarks | LandmarkDetector initialised with MediaPipe Face Mesh (468 points).
+2026-10-09 14:02:31,434 | INFO     | driver_safety.utils.pipeline | Loaded trained model from C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\weights\drowsiness_cnn_cbam.h5
+2026-10-09 14:02:42,487 | INFO     | driver_safety.camera | Webcam opened at index 0
+2026-10-09 14:02:42,492 | INFO     | driver_safety.gui.app | Screenshots for this run will be saved to: C:\Users\Sanjana M L\OneDrive\Desktop\major project\driver_safety_systemss\screenshots\2026-10-09_14-02-42
+2026-10-09 14:02:53,698 | INFO     | driver_safety.utils.alert | Warning chime played.
+2026-10-09 14:03:27,262 | INFO     | driver_safety.camera | Webcam released.

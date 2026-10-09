@@ -11,6 +11,9 @@ import json
 import sys
 import time
 import tkinter as tk
+import time
+import tkinter as tk
+
 from pathlib import Path
 from tkinter import messagebox, ttk
 from typing import Optional, Tuple
@@ -448,12 +451,50 @@ class DriverSafetyGUI:
         )
 
     def _show_quality_popup(self, quality_label: str) -> None:
-        messagebox.showwarning(
-            "Frame Quality Warning",
-            f"Monitoring paused for this frame: {quality_label}.\n\n"
-            "Please face the camera directly with good lighting so "
-            "drowsiness detection can resume.",
-        )
+    
+    # Don't stack popups: skip if one is already open
+        existing = getattr(self, "_quality_popup", None)
+        if existing is not None:
+            try:
+                if existing.winfo_exists():
+                    return
+            except tk.TclError:
+                pass
+
+    # Cooldown: don't re-show within 10 seconds of the last popup
+        now = time.time()
+        if now - getattr(self, "_quality_popup_last", 0.0) < 10.0:
+            return
+        self._quality_popup_last = now
+
+        parent = getattr(self, "root", None) or tk._default_root
+        popup = tk.Toplevel(parent)
+        popup.title("Frame Quality Warning")
+        popup.attributes("-topmost", True)
+        popup.resizable(False, False)
+
+        tk.Label(
+            popup,
+             text=(
+                 f"Monitoring paused for this frame: {quality_label}.\n\n"
+                 "Please face the camera directly with good lighting so "
+                "drowsiness detection can resume."
+            ),
+            wraplength=380,
+            justify="left",
+            padx=20,
+            pady=20,
+        ).pack()
+        tk.Button(popup, text="OK", width=10, command=popup.destroy).pack(pady=(0, 15))
+            # Center the popup over the main window
+        popup.update_idletasks()
+        w, h = popup.winfo_reqwidth(), popup.winfo_reqheight()
+        x = parent.winfo_rootx() + (parent.winfo_width() - w) // 2
+        y = parent.winfo_rooty() + (parent.winfo_height() - h) // 2
+        popup.geometry(f"+{max(x, 0)}+{max(y, 0)}")
+
+        self._quality_popup = popup
+        popup.after(5000, lambda: popup.winfo_exists() and popup.destroy())
 
     def _render(self, frame, result: DetectionResult) -> None:
         display = frame.copy()
